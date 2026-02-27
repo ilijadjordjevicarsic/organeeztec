@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "821445180991",
+    "project_id": "organeeztec",
+    "storage_bucket": "organeeztec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821445180991:android:829cf1958a8034b87c828a",
+        "android_client_info": {
+          "package_name": "com.eesteclsnic.organeeztec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821445180991-mcqe6igfatjgae726cip54q0v64katmv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDephaZWULkmVz_K2FDh1is_6iwEVixdek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821445180991-mcqe6igfatjgae726cip54q0v64katmv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

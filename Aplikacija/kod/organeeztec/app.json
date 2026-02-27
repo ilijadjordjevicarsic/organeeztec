@@ -1,0 +1,83 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with EESTEC."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#ffffff",
+          "iosDisplayInForeground": true,
+          "sounds": [
+            "./assets/sounds/notif_alert.wav"
+          ]
+        }
+      ]
+    ],
+    "notifications": {
+      "icon": "./assets/icon.png",
+      "color": "#ffffff",
+      "sounds": [
+        "./assets/sounds/notif_alert.wav"
+      ]
+    },
+    "name": "organeeztec",
+    "slug": "organeeztec",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splash.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000",
+      "android": {
+        "permissions": [
+          "READ_EXTERNAL_STORAGE"
+        ]
+      }
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "usesIcloudStorage": true,
+      "bundleIdentifier": "com.eesteclsnic.organeeztec"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "RECEIVE_BOOT_COMPLETED",
+        "NOTIFICATIONS"
+      ],
+      "package": "com.eesteclsnic.organeeztec",
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "02159d9e-3eb9-46ea-a79f-6fe2eb610c07"
+      }
+    },
+    "owner": "tijanakvaic"
+  }
+}

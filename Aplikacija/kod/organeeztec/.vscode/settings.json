@@ -1,0 +1,5 @@
+{
+    "scm.diffDecorationsGutterAction": "none",
+    "flow.useNPMPackagedFlow": true,
+    "javascript.validate.enable": false,
+}
